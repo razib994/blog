@@ -19,4 +19,9 @@ Route::get('/', [
  'uses'  => 'TestController@index',
  'as'  	 => '/'
  ]);
+Route::get('/about-us', [
+ 'uses'  => 'TestController@about',
+ 'as'  	 => '/about-us'
+ ]);
+
 
