@@ -15,4 +15,12 @@ class TestController extends Controller
     return view('about');
 }
 
+  function services() {
+    return view('services');
+}
+  function contact() {
+    return view('contact');
+}
+
+
 }

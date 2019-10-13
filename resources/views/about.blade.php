@@ -1,9 +1,11 @@
 
 @extends('master')
 @section('title')
-About
+About Us
 @endsection
-@section('content')
+
+
+@section('body')
  <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">About
       <small>Subheading</small>

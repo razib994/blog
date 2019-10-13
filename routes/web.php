@@ -19,9 +19,24 @@ Route::get('/', [
  'uses'  => 'TestController@index',
  'as'  	 => '/'
  ]);
+
 Route::get('/about-us', [
  'uses'  => 'TestController@about',
  'as'  	 => '/about-us'
  ]);
 
+Route::get('/services', [
+ 'uses'  => 'TestController@services',
+ 'as'  	 => '/services'
+ ]);
 
+Route::get('/contact-us', [
+ 'uses'  => 'TestController@contact',
+ 'as'  	 => '/contact-us'
+ ]);
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
